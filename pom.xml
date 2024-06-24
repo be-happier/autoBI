@@ -171,26 +171,26 @@
 
     <build>
         <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>${spring-boot.version}</version>
-                <configuration>
-                    <mainClass>com.jun.autoBI.AutoBIApplication</mainClass>
-<!--                    # 自定义jar包名称-->
-                    <finalName>AutoBIApplication</finalName>
-<!--                    # 是否跳过mian入口配置-->
-                    <skip>false</skip>
-                </configuration>
-                <executions>
-                    <execution>
-                        <id>repackage</id>
-                        <goals>
-                            <goal>repackage</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
+<!--            <plugin>-->
+<!--                <groupId>org.springframework.boot</groupId>-->
+<!--                <artifactId>spring-boot-maven-plugin</artifactId>-->
+<!--                <version>${spring-boot.version}</version>-->
+<!--                <configuration>-->
+<!--                    <mainClass>com.jun.autoBI.AutoBIApplication</mainClass>-->
+<!--&lt;!&ndash;                    # 自定义jar包名称&ndash;&gt;-->
+<!--                    <finalName>AutoBIApplication</finalName>-->
+<!--&lt;!&ndash;                    # 是否跳过mian入口配置&ndash;&gt;-->
+<!--                    <skip>false</skip>-->
+<!--                </configuration>-->
+<!--                <executions>-->
+<!--                    <execution>-->
+<!--                        <id>repackage</id>-->
+<!--                        <goals>-->
+<!--                            <goal>repackage</goal>-->
+<!--                        </goals>-->
+<!--                    </execution>-->
+<!--                </executions>-->
+<!--            </plugin>-->
 
 
             <plugin>
@@ -209,7 +209,7 @@
                 <version>${spring-boot.version}</version>
                 <configuration>
                     <mainClass>com.jun.autoBI.AutoBIApplication</mainClass>
-                    <skip>true</skip>
+                    <skip>false</skip>
                 </configuration>
                 <executions>
                     <execution>
