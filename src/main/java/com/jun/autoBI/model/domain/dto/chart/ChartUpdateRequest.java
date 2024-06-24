@@ -5,7 +5,7 @@ import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableLogic;
 import lombok.Data;
-import org.omg.CORBA.IDLType;
+//import org.omg.CORBA.IDLType;
 
 import java.io.Serializable;
 import java.util.Date;
